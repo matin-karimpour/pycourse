@@ -1,5 +1,5 @@
 from flask import Flask, send_file, render_template
-app = Flask(__name__)
+app = Flask(__name__,static_folder="statics")
 	
 @app.route('/')
 def upload_form():
