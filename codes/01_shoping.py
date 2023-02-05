@@ -17,4 +17,4 @@ for item in shoping_list:
         print("budget is not enough for this ", item)
 
 print("your final basket is ", basket)
-print("your final budget is ", budget)    
+print("your final budget is ", budget)
